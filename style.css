@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: azure;
+    padding: 16px 0;
+    color: rgb(232, 148, 142);
+    display: flex;
+    border-bottom: 16px solid rgb(232, 148, 142);
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: azure;
+    padding: 24px 0;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+   background-color: rgb(134, 153, 239);
+   border: none;
+   cursor: pointer;
+   text-transform: uppercase;
+   color: azure;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+#blt-cancelar {
+    background-color: rgb(139, 61, 99);
+}
